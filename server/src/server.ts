@@ -11,11 +11,11 @@ app.register(Cors)
 
 app.get('/hello', async () => {
     const habits = await prisma.habit.findMany({
-        where: {
-            title: {
-                startsWith: 'Exerc'
-            }
-        }
+        // where: {
+        //     title: {
+        //         startsWith: 'Exerc'
+        //     }
+        // }
 
     })
 
