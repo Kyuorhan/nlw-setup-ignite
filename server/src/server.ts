@@ -10,10 +10,14 @@ app.register(Cors)
 /* Metodo HTTP: Get, Post, Put, Patch, Delete */
 
 app.get('/hello', async () => {
-    const habits = await prisma.habit.findMany()
+    const habits = await prisma.habit.findMany({
+        // where: {
+        //     title: {
+        //         startsWith: 'Exerc'
+        //     }
+        // }
 
-    return habits
-})
+    })
 
 app.listen({
     port: 3333
