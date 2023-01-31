@@ -1,1 +1,1 @@
-Added new project NLW Setupe - Trilha Ignite
+Added new project NLW Setup - Trilha Ignite
