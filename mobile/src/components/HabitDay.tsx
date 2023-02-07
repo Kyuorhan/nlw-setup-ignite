@@ -18,5 +18,5 @@ export function HabitDay() {
         border-zinc-800"
         style={{ width: DAY_SIZE, height: DAY_SIZE }}
     />
-  )
+  );
 }
