@@ -1,10 +1,21 @@
 import { useState } from "react";
-import { ScrollView, Text, TextInput, TouchableOpacity, View } from "react-native";
+import { 
+  Dimensions, 
+  ScrollView, 
+  Text, 
+  TextInput, 
+  TouchableOpacity, 
+  View 
+} from "react-native";
+
 import { Feather } from '@expo/vector-icons';
 import colors from "tailwindcss/colors";
 
 import { CheckBox } from "../components/Buttons/CheckBox";
 import { ReturnButton } from "../components/Buttons/ReturnButton";
+
+const SCREEN_HORIZONTAL_PADDING = Math.round((Dimensions.get('screen').width) / ((32 * 2) / 5) + 1);
+const SCREEN_VERTICAL_PADDING = Math.round((Dimensions.get('screen').height) / ((32 * 5) / 12) + 2);
 
 const avaiableWeekDays = [
   'Domingo',
@@ -25,17 +36,19 @@ export function New() {
     } else {
       setWeekDays(prevState => [...prevState, weekDayIndex]);
     }
-
   }
-
+  
   return (
-    <View 
+    <View           
       className="
-        flex-1 
-        bg-background
-        px-8 pt-16"        
+        flex-1
+        bg-background"  
+        style={{ paddingHorizontal: SCREEN_HORIZONTAL_PADDING, paddingVertical: SCREEN_VERTICAL_PADDING }}
     >
-      <ScrollView showsVerticalScrollIndicator={false}>
+      <ScrollView 
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={{ paddingBottom: 100 }}
+      >
 
         <ReturnButton />
 
@@ -48,20 +61,20 @@ export function New() {
         </Text>
 
         <TextInput 
-          // placeholder="Exercícios, dormir bem, etc..."
           className="
-            h-12
-            pl-4
-            rounded-lg 
-            mt-3
-            text-white
-            bg-zinc-900
-            border-2
-            border-zinc-800
-            focus:border-2
-            focus:border-green-400"
+          h-12
+          pl-4
+          rounded-lg 
+          mt-3
+          text-white
+          bg-zinc-900
+          border-2
+          border-zinc-800
+          focus:border-green-500"
+          placeholder="Exercícios, dormir bem, etc..."
+          placeholderTextColor={colors.zinc[400]}          
         />
-
+        
         <Text className="mt-4 mb-3 text-white font-semibold text-base">
           Qual a recorrência?
         </Text>

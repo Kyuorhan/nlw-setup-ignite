@@ -1,6 +1,9 @@
-import { Text, TouchableOpacity, TouchableOpacityProps, View } from 'react-native';
+import { Dimensions, Text, TouchableOpacity, TouchableOpacityProps, View } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 import colors from 'tailwindcss/colors';
+
+const CHECKBOX_SIZE = Math.round((Dimensions.get('screen').width) / ((32 * 2) / 5) + 1);
+const CHECKBOX_MARGIN = Math.round(Dimensions.get('screen').height / 100)
 
 interface Props extends TouchableOpacityProps {
   title: string;
@@ -10,23 +13,23 @@ interface Props extends TouchableOpacityProps {
 export function CheckBox({ title, checked = false, ...rest }: Props) {
   return (
     <TouchableOpacity
-      activeOpacity={0.7}
+      activeOpacity={0.5}
       className="
-        flex-row 
-        mb-2
+        flex-row           
         items-center"
-      {...rest}
+        style={{ marginBottom: CHECKBOX_MARGIN }}
+      {...rest}      
     >
      {  
         checked
           ?    
           <View
-            className="
-              h-8 w-8
-              bg-green-400
+            className="                    
+              bg-green-500
               rounded-lg
               items-center
               justify-center"
+              style={{ width: CHECKBOX_SIZE, height: CHECKBOX_SIZE }}              
           >
             <Feather 
               name="check"
@@ -37,15 +40,15 @@ export function CheckBox({ title, checked = false, ...rest }: Props) {
           :
           <View 
             className="
-              h-8 w-8
               bg-zinc-900
               rounded-lg
               border-2
-              border-zinc-800"
+              border-zinc-800" 
+              style={{ width: CHECKBOX_SIZE, height: CHECKBOX_SIZE }}             
           />
       }
 
-      <Text className="text-white text-base ml-3">
+      <Text className="text-white text-base ml-3 font-semibold">
         {title}
       </Text>
 

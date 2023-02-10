@@ -18,7 +18,7 @@ export function AppRotues() {
 
       <Screen 
         name="habit"
-        component={Home}
+        component={Habit}
       />
 
       <Screen 
