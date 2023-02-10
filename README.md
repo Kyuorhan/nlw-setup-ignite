@@ -46,7 +46,6 @@ Clone the project and access the folder.
 $ git clone https://github.com/Kyuorhan/nlw-setup-ignite.git
 $ cd nlw-setup-ignite
 ```
-Follow the steps below:
 
 ### ⚡️&nbsp; Quickstart 
 ##
@@ -80,8 +79,9 @@ $ npm run dev
  <img height="320em" src="./.github/Habits%20(Web)/New habit.svg"/>
 </div> -->
 
-|<div align="center"><a href="./.github/Habits%20(Web)/Home.svg"> <img height="240em" src="./.github/Habits%20(Web)/Home.svg"/></a> | <a href="./.github/Habits%20(Web)/New habit.svg"> <img height="240em" src="./.github/Habits%20(Web)/New habit.svg" /></a> |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<div align="center">
+ <img height="260em" src="./.github/Habits%20(Web)/Home.svg"/>
+ <img height="260em" src="./.github/Habits%20(Web)/New habit.svg"/>
 </div>
 
 <br>
@@ -98,8 +98,8 @@ $ npm install
 $ npx expo start
 ```
 <div align="center">
- <img height="240em" src="./.github/Habits%20(Web)/Home.svg"/>
- <img height="240em" src="./.github/Habits%20(Web)/New habit.svg"/>
+ <img height="260em" src="./.github/Habits%20(Web)/Home.svg"/>
+ <img height="260em" src="./.github/Habits%20(Web)/New habit.svg"/>
 </div>
 
 <br>
