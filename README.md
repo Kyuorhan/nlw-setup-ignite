@@ -80,8 +80,8 @@ $ npm run dev
 </div> -->
 
 <div align="center">
- <img height="260em" src="./.github/Habits%20(Web)/Home.svg"/>
- <img height="260em" src="./.github/Habits%20(Web)/New habit.svg"/>
+ <img height="250em" src="./.github/Habits%20(Web)/Home.svg"/>
+ <img height="250em" src="./.github/Habits%20(Web)/New habit.svg"/>
 </div>
 
 <br>
@@ -97,9 +97,12 @@ $ npm install
 ```powershell
 $ npx expo start
 ```
+
 <div align="center">
- <img height="260em" src="./.github/Habits%20(Web)/Home.svg"/>
- <img height="260em" src="./.github/Habits%20(Web)/New habit.svg"/>
+  <img height="360em" src="./.github/Habits%20(Mobile)/Splash.svg"/>
+  <img height="360em" src="./.github/Habits%20(Mobile)/Home.svg"/>
+  <img height="360em" src="./.github/Habits%20(Mobile)/Specific day.svg"/>
+  <img height="360em" src="./.github/Habits%20(Mobile)/New habit.svg"/>
 </div>
 
 <br>
