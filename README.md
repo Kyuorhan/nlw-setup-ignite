@@ -11,7 +11,8 @@
 
 # Habitto Life 💪
 
-## 🛠️&nbsp; Technologies
+### 🛠️&nbsp; Technologies
+##
 
 #### This project was developed using the following technologies:
 
@@ -25,7 +26,8 @@
 - [**React Native**](https://reactnative.dev/)
 - [**Expo**](https://expo.io/)
 
-## ✨&nbsp; SOLID
+### ✨&nbsp; SOLID
+##
 
 #### Principles:
 
@@ -35,7 +37,8 @@
 - Interface Segregation Principle: Segregate Interfaces;
 - Dependency Inversion Principle: Instead of the class fetching the dependencies it needs, the context informs the class of the required dependencies;
 
-## 🚀&nbsp; Getting started
+### 🚀&nbsp; Getting started
+##
 
 #### Clone the project and access the folder.
 
@@ -45,9 +48,10 @@ $ cd nlw-setup-ignite
 ```
 #### Follow the steps below:
 
-## ⚡️&nbsp; Quickstart 
+### ⚡️&nbsp; Quickstart 
+##
 
-### ⚙️&nbsp; Server
+#### ⚙️&nbsp; Server
 
 - 📝&nbsp; Install the server dependencies
 ```powershell
@@ -60,7 +64,7 @@ $ npx prisma migrate deploy
 $ npm run dev
 ```
 
-### 🖥️&nbsp; Web 
+#### 🖥️&nbsp; Web 
 
 - 📝&nbsp; Install the web dependencies 
 ```powershell
@@ -82,8 +86,7 @@ $ npm run dev
 
 <br>
 
-### 📱&nbsp; Mobile 
-##
+#### 📱&nbsp; Mobile 
 
 - 📝&nbsp; Install the mobile dependencies 
 ```powershell
@@ -95,8 +98,8 @@ $ npm install
 $ npx expo start
 ```
 <div align="center">
- <img height="320em" src="./.github/Habits%20(Web)/Home.svg"/>
- <img height="320em" src="./.github/Habits%20(Web)/New habit.svg"/>
+ <img height="180em" src="./.github/Habits%20(Web)/Home.svg"/>
+ <img height="180em" src="./.github/Habits%20(Web)/New habit.svg"/>
 </div>
 
 <br>
