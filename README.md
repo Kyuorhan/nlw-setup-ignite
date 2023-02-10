@@ -7,7 +7,6 @@
 ![](./.github/Cover.svg)
 
 <br>
-<br>
 
 # Habitto Life 💪
 
@@ -99,10 +98,10 @@ $ npx expo start
 ```
 
 <div align="center">
-  <img height="360em" src="./.github/Habits%20(Mobile)/Splash.svg"/>
-  <img height="360em" src="./.github/Habits%20(Mobile)/Home.svg"/>
-  <img height="360em" src="./.github/Habits%20(Mobile)/Specific day.svg"/>
-  <img height="360em" src="./.github/Habits%20(Mobile)/New habit.svg"/>
+  <img height="420em" src="./.github/Habits%20(Mobile)/Splash.svg"/>
+  <img height="420em" src="./.github/Habits%20(Mobile)/Home.svg"/>
+  <img height="420em" src="./.github/Habits%20(Mobile)/Specific day.svg"/>
+  <img height="420em" src="./.github/Habits%20(Mobile)/New habit.svg"/>
 </div>
 
 <br>
