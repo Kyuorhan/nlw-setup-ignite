@@ -40,13 +40,13 @@
 ### 🚀&nbsp; Getting started
 ##
 
-#### Clone the project and access the folder.
+Clone the project and access the folder.
 
 ```powershell
 $ git clone https://github.com/Kyuorhan/nlw-setup-ignite.git
 $ cd nlw-setup-ignite
 ```
-#### Follow the steps below:
+Follow the steps below:
 
 ### ⚡️&nbsp; Quickstart 
 ##
@@ -98,8 +98,8 @@ $ npm install
 $ npx expo start
 ```
 <div align="center">
- <img height="180em" src="./.github/Habits%20(Web)/Home.svg"/>
- <img height="180em" src="./.github/Habits%20(Web)/New habit.svg"/>
+ <img height="240em" src="./.github/Habits%20(Web)/Home.svg"/>
+ <img height="240em" src="./.github/Habits%20(Web)/New habit.svg"/>
 </div>
 
 <br>
