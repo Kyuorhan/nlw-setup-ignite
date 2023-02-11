@@ -56,6 +56,11 @@ $ cd nlw-setup-ignite
 $ cd server
 $ npm install
 ```
+- 📝&nbsp; Configure database connection
+```javascript
+# Create file type " .env " and add this variable
+> DATABASE_URL="file:./dev.db"
+```
 - ✨&nbsp; Start the server project
 ```powershel
 $ npx prisma migrate deploy
