@@ -55,7 +55,7 @@ export function HabitCreationForm() {
       <input 
         type="text"
         id="title"
-        placeholder=" ex.: Exercícios, dormir bem, etc..."
+        placeholder=" Exercícios, dormir bem, etc..."
         className="
         p-4
         rounded-lg

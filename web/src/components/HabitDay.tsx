@@ -14,7 +14,7 @@ interface HabitDayProps {
 export function HabitDay({ completed, amount }: HabitDayProps) {
   const completedPercentage = Math.round((completed / amount) * 100)
 
-    return(
+    return(      
       <Popover.Root>
         <Popover.Trigger 
           className={
@@ -43,14 +43,14 @@ export function HabitDay({ completed, amount }: HabitDayProps) {
 
             <ProressBars progress={completedPercentage} />
 
-            <div className="mt-6 flex-col gap-3">
+            <div className="mt-6 flex flex-col gap-3">
               <CheckBox.Root
                 className="
                   flex
                   items-center
                   gap-3
-                  group"
-
+                  group
+                  focus:outline-none"
               >
                 <div 
                   className="h-8 w-8 rounded-lg flex items-center justify-center bg-zinc-900 border-2 border-zinc-800 
@@ -75,8 +75,8 @@ export function HabitDay({ completed, amount }: HabitDayProps) {
                   flex
                   items-center
                   gap-3
-                  group"
-                  
+                  group
+                  focus:outline-none"                  
               >
                 <div 
                   className="h-8 w-8 rounded-lg flex items-center justify-center bg-zinc-900 border-2 border-zinc-800 
@@ -101,8 +101,8 @@ export function HabitDay({ completed, amount }: HabitDayProps) {
                   flex
                   items-center
                   gap-3
-                  group"
-                  
+                  group
+                  focus:outline-none"                  
               >
                 <div 
                   className="h-8 w-8 rounded-lg flex items-center justify-center bg-zinc-900 border-2 border-zinc-800 
